@@ -37,8 +37,7 @@ public class Ward {
 	public void addPatient(Patient p) {
 		p.setWard(this);
 		patients.add(p);
-		
-		
+
 	}
 
 	public Ward(int id, String type, double charges, double availability, double maxCapacity) {

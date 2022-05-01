@@ -50,9 +50,7 @@ public class EmployeeServices {
 	
 	}
 	
-	
 
-	
 	public List<EmployeeUserDataBacking> getAllEmployees(){
 		List<Employee> employees=employeeDao.findAll();
 		List<EmployeeUserDataBacking> employeeDetails =createEmployee(employees);
@@ -74,5 +72,4 @@ public class EmployeeServices {
 		System.out.println("no of employees deleted : ");
 		 return 1;
 	}
-
 }

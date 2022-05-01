@@ -56,7 +56,6 @@ public class User {
 	public void addEmployee(Employee e) {
 		this.employee=e;
 		this.employee.setUser(this);
-		
 	}
 	//***************connection to patient 
 	public void addPatient(Patient p) {
@@ -64,8 +63,6 @@ public class User {
 		this.patient.setUser(this);
 		
 	}
-
-
 
 	public User(String firstName, String lastName, String email, String password, String role, String cellNo,
 			String securityQuestion, String securityAnswer) {
@@ -80,19 +77,10 @@ public class User {
 		this.securityAnswer = securityAnswer;
 	}
 
-
 	//***********created for testing purpose
 	public User(int id, String firstName) {
 		super();
 		this.id = id;
 		this.firstName = firstName;
 	}
-
-
-
-	
-
-	
-
-	
 }
